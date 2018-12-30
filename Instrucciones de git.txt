@@ -1,0 +1,29 @@
+Para poder trabajar correctamente con git:
+1- Descargar git desde su pagina oficial
+
+2- Instalarlo y desde el cmd lanzad los siguientes comandos:
+git config --global user.name <Vuestro_nombre_de_usuario_en_github>
+git config --global user.email <Vuestro_email_registrado_en_github>
+
+3- En el directorio donde deseeis tener la carpeta del proyecto de git abris la consola (cmd.exe)
+
+3B- Abris cmd.exe y con ayuda del comando cd <...> os situais en el directorio donde deseeis almacenar el proyecto
+
+4- Lanzais el comando para tener el proyecto como un repositorio git:
+git clone https://github.com/GonzaloGNogales/POO_Project <Nombre_que_querais_ponerle_al_proyecto_en_vuestro_ordenador>
+
+*- Para actualizar los datos locales ANTES de empezar a hacer cambios usad git pull origin master
+
+*- Comprobais el estado de los archivos con git status
+
+*- Para almacenarlos en la pila ANTES de commitear usad git add .
+y se almacenará todo
+
+*- Para commitear usad git commit -m "Nombre_Breve_y_Descriptivo_del_commit"
+
+*- Antes de SUBIRLO haced un git pull origin master
+para descargar posibles cambios posteriores a la ultima vez que descargasteis de github e integrar en local las diferencias en conflicto
+
+*- Cuando querais subir vuestros commits, aseguraros con git status
+de que está limpia la pila de trabajo y subis vuestros cambios con git push origin master
+
